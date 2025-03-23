@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Board Counter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section id="home">
+        <h2 class="title">HOME</h2>
+        <div class="display-score_container">
+          <p id="home-score">0</p>
+        </div>
+        <button class="btn one" type="button" onclick="homePlusOne()">
+          +1
+        </button>
+        <button class="btn two" type="button" onclick="homePlustwo()">
+          +2
+        </button>
+        <button class="btn three" type="button" onclick="homePlusthree()">
+          +3
+        </button>
+      </section>
+      <section id="guess">
+        <h2 class="title">GUESS</h2>
+        <div class="display-score_container">
+          <p id="guest-score">0</p>
+        </div>
+        <button class="btn one" type="button" onclick="guestPlusOne()">
+          +1
+        </button>
+        <button class="btn two" type="button" onclick="guestPlustwo()">
+          +2
+        </button>
+        <button class="btn three" type="button" onclick="guestPlusthree()">
+          +3
+        </button>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
